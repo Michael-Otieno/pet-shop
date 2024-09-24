@@ -2,7 +2,9 @@
   "name": "@furn-shop/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev":"npx nx run host:serve --devRemotes=contact-us --watch=true"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.3.0",
