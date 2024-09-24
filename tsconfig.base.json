@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@furn-shop/navbar": ["libs/shared/navbar/src/index.ts"],
       "auth/Module": [
         "apps/pages/auth/auth/src/app/remote-entry/entry.module.ts"
       ],
