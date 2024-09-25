@@ -16,11 +16,23 @@
     "baseUrl": ".",
     "paths": {
       "@furn-shop/navbar": ["libs/shared/navbar/src/index.ts"],
+      "about-us/Module": [
+        "apps/pages/about-us/about-us/src/app/remote-entry/entry.module.ts"
+      ],
       "auth/Module": [
         "apps/pages/auth/auth/src/app/remote-entry/entry.module.ts"
       ],
+      "cart/Module": [
+        "apps/pages/cart/cart/src/app/remote-entry/entry.module.ts"
+      ],
       "contact-us/Module": [
         "apps/pages/contact-us/src/app/remote-entry/entry.module.ts"
+      ],
+      "services/Module": [
+        "apps/pages/services/services/src/app/remote-entry/entry.module.ts"
+      ],
+      "shop/Module": [
+        "apps/pages/shop/shop/src/app/remote-entry/entry.module.ts"
       ]
     }
   },
