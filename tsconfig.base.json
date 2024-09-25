@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@furn-shop/navbar": ["libs/shared/navbar/src/index.ts"],
+      "@furn-shop/ui": ["libs/shared/ui/src/index.ts"],
       "about-us/Module": [
         "apps/pages/about-us/about-us/src/app/remote-entry/entry.module.ts"
       ],
