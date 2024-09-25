@@ -58,6 +58,9 @@
           "env": "NX_MF_DEV_SERVER_STATIC_REMOTES"
         }
       ]
+    },
+    "build": {
+      "inputs": ["production", "^production"]
     }
   },
   "plugins": [
@@ -87,6 +90,9 @@
     "@nx/angular:library": {
       "linter": "eslint",
       "unitTestRunner": "jest"
+    },
+    "@nx/angular:component": {
+      "style": "css"
     }
   }
 }
