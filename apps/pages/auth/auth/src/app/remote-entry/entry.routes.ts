@@ -1,10 +1,8 @@
 import { Route } from '@angular/router';
-import { RemoteEntryComponent } from './entry.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 
 export const remoteRoutes: Route[] = [
-  // { path: '',redirectTo:"login", component: LoginComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
