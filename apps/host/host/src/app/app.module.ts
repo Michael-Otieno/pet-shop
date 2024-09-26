@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { NavbarModule } from '@furn-shop/navbar';
+import { UiModule } from '@furn-shop/ui';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent,],
-  imports: [BrowserModule, RouterModule.forRoot(appRoutes),NavbarModule],
+  imports: [BrowserModule, RouterModule.forRoot(appRoutes),NavbarModule,UiModule],
   providers: [],
   bootstrap: [AppComponent],
 })

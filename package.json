@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "npx nx run host:serve --devRemotes=contact-us,auth,about-us,cart,shop,services --watch=true"
+    "dev": "npx nx run host:serve --devRemotes=contact-us,auth,about-us,cart,shop,services --watch=true",
+    "component-create":" npx nx generate @nx/angular:component --name=hero-section --directory=lib/components/hero-section --export=true --standalone=false --module=src/lib/ui.module.ts --nameAndDirectoryFormat=as-provided --no-interactive --dry-run"
   },
   "private": true,
   "dependencies": {
