@@ -1,3 +1,3 @@
 export * from './lib/ui.module';
 
-export * from './lib/lib/components/hero-section/hero-section.component';
+export * from './lib/components/hero-section/hero-section.component';
